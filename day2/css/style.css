@@ -1,0 +1,115 @@
+/*Mis estilos*/
+body{
+    background-color: rgba(0, 118, 255,1);
+    margin:0;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1vh;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+    padding: 1vh;
+}
+
+.search-section{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3vh;
+}
+
+.search-section i{
+}
+
+.search-section input{
+    border-radius: 1vh;
+}
+
+.main-content{
+    width: 80%;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+.products-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-image{
+    text-align: center;
+    width: 20%;
+}
+
+.product-image img{
+    width: 100%;
+}
+
+.button-product{
+    color: #FFF;
+    margin-left: 10%;
+    width: 80%;
+    height: 5%;
+    background-color: #0f16c3;
+    border-radius: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 5px 0px #FFF;
+}
+
+.about-section{
+    display: flex;
+}
+
+.about-section p{
+    width: 80%;
+}
+
+.about-section img{
+    height: 20%;
+}
+
+.form-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.data-form{
+}
+
+.data-form input{
+    width: 90%;
+    padding: 1vh;
+    margin: 1vh;
+}
+
+.message-form{
+    width: 50%;
+    margin: 1vh;
+}
+
+.button-form{
+    margin: 1vh;
+    margin-left: 90%;
+}
+
+footer{
+    display: flex;
+    font-size: 0.7rem;
+}
+
+.copy-section{
+    width: 70%;
+}
+
+.map-section{
+    width: 40%;
+    height: 15%;
+}
